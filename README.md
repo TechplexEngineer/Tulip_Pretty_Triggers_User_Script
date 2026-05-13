@@ -11,17 +11,19 @@ This repository contains a Tampermonkey userscript (`script.js`) that makes Tuli
 ## 2) Enable userscripts in Chrome
 
 1. Open `chrome://extensions`.
-2. Enable **Developer mode** (top-right).
-3. Click into the **Tampermonkey** extension details.
-4. Make sure Tampermonkey is enabled and allowed to run.
+2. Click "Details" button next to Tampermonkey.
+4. Ensure the "Allow User Scripts" switch is enabled.
 
 ## 3) Install this userscript
 
-1. Open the raw script file from this repository:
+1. Click the Tampermonkey extension, sometimes hidden in the puzzle piece icon next to the URL bar
+2. Click Dashboard
+3. Click Utilities tab
+4. Enter the URL in the "Import from URL" field:
    - `https://raw.githubusercontent.com/TechplexEngineer/Tulip_Pretty_Triggers_User_Script/main/script.js`
-2. Tampermonkey will open an install page automatically.
-3. Click **Install**.
-4. Refresh any open `*.tulip.co` pages.
+6. Tampermonkey will open an install page automatically.
+7. Click **Install**.
+8. Refresh any open `*.tulip.co` pages.
 
 ## Before / After
 
